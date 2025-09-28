@@ -520,10 +520,10 @@ will be displayed the same at any UI scale. This property is enabled by default 
 you don't need it you must explicitly set it to false.
 
 ```lua
-dlg:modify{ id=canvasId, mouseCursor=newMouseCursor }
+dlg:modify{ id=canvasId, mousecursor=newMouseCursor }
 ```
 
-Additionally, when using `Dialog:modify()`, the canvas `mouseCursor` property can be set to a [MouseCursor](mousecursor.md) value, changing the mouse cursor type.
+Additionally, when using `Dialog:modify()`, the canvas `mousecursor` property can be set to a [MouseCursor](mousecursor.md) value, changing the mouse cursor type.
 
 ## Dialog:repaint()
 

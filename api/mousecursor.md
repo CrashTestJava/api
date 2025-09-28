@@ -3,7 +3,7 @@
 Mouse cursor that can be set in a [canvas widget](dialog.md#dialogcanvas) using:
 
 ```lua
-dialog:modify{ id=canvasId, mouseCursor=newMouseCursor }
+dialog:modify{ id=canvasId, mousecursor=newMouseCursor }
 ```
 
 ## MouseCursor.NONE
