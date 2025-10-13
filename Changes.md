@@ -23,6 +23,15 @@ else
   -- Future versions will be 2, 3, etc.
 end
 ```
+## v1.3.16-beta1
+
+* [`app.apiVersion`](api/app.md#appapiversion) is `36`
+* Added `ui` parameter to all commands for enabling/disabling user interaction through their dialogs [#3025](https://github.com/aseprite/aseprite/issues/3025)
+
+## v1.3.15.3
+
+* [`app.apiVersion`](api/app.md#appapiversion) is `36`
+* Enclose key names for plugin preferences with `["..."]` when it's required [#5412](https://github.com/aseprite/aseprite/issues/5412)
 
 ## v1.3.15
 
@@ -403,4 +412,4 @@ end
 ## v1.2.10-beta2
 
 * [`app`](api/app.md#app)
-  * `app.apiVersion` didn't exist (is `nil`)  
+  * `app.apiVersion` didn't exist (is `nil`)
