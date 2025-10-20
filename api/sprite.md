@@ -197,6 +197,10 @@ images/frames have the same indexed palette, they will share (so if
 `spr_01.png` and `spr_02.png` have the same palette, but `spr_03.png`
 has a different one, there would be `2` sprite palettes).
 
+There is no proper UI to support multiple palettes at the moment, but
+in a future we want to create an easy way to create
+[color cycling animations](https://en.wikipedia.org/wiki/Color_cycling).
+
 ## Sprite.layers
 
 ```lua
